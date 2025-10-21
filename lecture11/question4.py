@@ -19,6 +19,6 @@ perc_cds=len(cds)/len(dna_seq)*100
 print('The precentage of DNA sequence that is coding is:', perc_cds)
 
 # Prints the original genomic DNA sequence with coding bases in uppercase, non-coding bases in lowercase
-intron=dna_seq[exon1_end+1:exon2_start-1]
+intron=dna_seq[exon1_end+1:exon2_start]
 dna_seq_ie=exon1+intron.lower()+exon2
 print(dna_seq_ie)
