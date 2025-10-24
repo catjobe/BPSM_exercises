@@ -4,8 +4,8 @@ dna_seq='ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCGA
 
 # Define start and stop positions for each exon
 exon1_start=0
-exon1_end=63+2
-exon2_start=91+1
+exon1_end=63
+exon2_start=90
 
 # Find exons
 exon1=dna_seq[exon1_start:exon1_end]
