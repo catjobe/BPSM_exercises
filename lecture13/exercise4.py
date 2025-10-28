@@ -6,7 +6,7 @@ import os
 # Open the file
 infile=open("xaa.dna")
 
-# Process the rows
+# Process the lines
 sequences=infile.readlines()
 
 # Initialize a counter
