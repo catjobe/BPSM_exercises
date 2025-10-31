@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Length of DNA sequences of the same length
+# List of DNA sequences of the same length
 dna_seqs = ['ATTGTACGG', 'AATGAACCG', 'AATGAACCC', 'AATGGGAAT']
 
 for seq1 in dna_seqs:
