@@ -38,7 +38,7 @@ for seq in dna, dna_rev:
         strand='Reverse'
     for i in range(0,3):
         protein=[]
-        for j in range(i,len(seq)-3+1):
+        for j in range(i,len(seq)-3+1,3):
             nucleotide=seq[j:j+3]
             aa=gencode[nucleotide]
             protein.append(aa)
